@@ -31,7 +31,7 @@ function Header() {
             }`}
           >
             <a
-              href="about"
+              href="#about"
               id="presentation"
               onClick={() => linkActive("presentation")}
             >
@@ -43,7 +43,7 @@ function Header() {
               activeLink === "competences" ? "active-link" : ""
             }`}
           >
-            <a href="#" id="competences" onClick={() => linkActive("competences")}>
+            <a href="#skill" id="competences" onClick={() => linkActive("competences")}>
               COMPÉTENCES
             </a>
           </li>

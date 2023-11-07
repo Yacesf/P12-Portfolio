@@ -1,0 +1,29 @@
+#skill {
+  padding: 7% 10% 10%;
+  background-color: white;
+  position: relative;
+  z-index: -1;
+}
+
+#skill-container {
+  display: flex;
+  margin-top: 12%;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 767.5px) {
+  #skill-container {
+    margin-top: 24%;
+    gap: 30px;
+  }
+  .skill-row {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
