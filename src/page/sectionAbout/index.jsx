@@ -11,8 +11,14 @@ function About() {
           de faire de cette passion mon métier.
           <br /> Pour concrétiser ce projet, j'ai suivi une formation en tant
           qu'intégrateur web.
-          <br /> <br/>Aujourd'hui, je possède les compétences nécessaires pour
-          déboguer, optimiser et même intégrer des applications avec React, Redux et <a id="about-text-link" href="#">bien plus.</a>
+          <br />
+        </p>
+        <p>
+          Aujourd'hui, je possède les compétences nécessaires pour déboguer,
+          optimiser et même intégrer des applications avec React, Redux et{" "}
+          <a id="about-text-link" href="#">
+            bien plus.
+          </a>
         </p>
       </div>
     </div>
