@@ -31,8 +31,8 @@ function Skill(props) {
   };
 
   return (
-    <div id="skill">
-      <h2 className="section-title">COMPÉTENCES</h2>
+    <section className="sections" id="skill">
+      <h2 className="section-title">MES COMPÉTENCES</h2>
       <div className="title-line"></div>
       <div id="skill-container">
         {createSkillRows().map((row, rowIndex) => (
@@ -47,7 +47,7 @@ function Skill(props) {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

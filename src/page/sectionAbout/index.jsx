@@ -2,7 +2,7 @@ import "./index.css";
 
 function About() {
   return (
-    <div id="about">
+    <section className="sections" id="about">
       <h2 className="section-title">PRÉSENTATION</h2>
       <div className="title-line"></div>
       <div id="about-text">
@@ -21,7 +21,7 @@ function About() {
           </a>
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
