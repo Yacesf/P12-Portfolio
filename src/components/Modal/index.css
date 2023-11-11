@@ -31,7 +31,7 @@
   width: 50px;
 }
 
-.close {
+.close-modal {
   position: absolute;
   top: 1%;
   right: 1%;
@@ -98,7 +98,7 @@
 }
 
 @media only screen and (max-width: 767.5px) {
-  .close {
+  .modal-close {
     display: inline-block;
     font-size: 16px;
   }
@@ -128,7 +128,7 @@
 }
 
 @media only screen and (max-width: 419.5px) {
-  .close {
+  .modal-close {
     display: inline-block;
     font-size: 13px;
   }
