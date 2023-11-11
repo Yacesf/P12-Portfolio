@@ -1,5 +1,5 @@
 import "./index.css";
-import Skills from "../../components/skills";
+import Skills from "../../components/Skills";
 import LogoCSS from "../../img/logo-de-competence/CSS3_logo.svg.png";
 import LogoHTML from "../../img/logo-de-competence/Logo-HTML.png";
 import LogoSASS from "../../img/logo-de-competence/Logo-SASS.png";
