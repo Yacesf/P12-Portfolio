@@ -1,0 +1,22 @@
+#footer {
+  width: 100%;
+  background-color: #970000;
+  color: #fff4f4;
+  padding: 50px;
+}
+
+.div-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 35px;
+}
+
+.icon:hover {
+  color: white;
+}
+
+footer p {
+  margin-top: 25px;
+  text-align: center;
+}

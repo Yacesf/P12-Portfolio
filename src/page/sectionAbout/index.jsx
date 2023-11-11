@@ -16,9 +16,10 @@ function About() {
         <p>
           Aujourd'hui, je possède les compétences nécessaires pour déboguer,
           optimiser et même intégrer des applications avec React, Redux et{" "}
-          <a id="about-text-link" href="#">
-            bien plus.
+          <a id="about-text-link" href="#skill">
+            bien plus
           </a>
+          .
         </p>
       </div>
     </section>

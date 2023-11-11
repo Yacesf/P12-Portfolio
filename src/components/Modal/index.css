@@ -1,0 +1,151 @@
+.modal {
+	position: fixed;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+}
+
+.modal-wrapper {
+  overflow: auto;
+	max-width: calc(100vw - 120px);
+	max-height: calc(100vh - 120px);
+	background-color: white;
+  padding: 2%;
+  position: relative;
+}
+
+.modal-open {
+  display: flex;
+}
+
+.modal-github {
+  position: absolute;
+  bottom: 0%;
+  right: 46.75%;
+  width: 50px;
+}
+
+.close {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+.modal-banner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.modal-line {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-title-about {
+  letter-spacing: 1px;
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.modal-title-about h4 {
+  font-weight: 400;
+  width: 40%;
+  text-align: center;
+}
+
+.modal-line-about {
+  width: 40%;
+  border: 1px solid;
+}
+
+.modal-about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.modal-about p {
+  width: 40%;
+  font-size: 13px;
+}
+
+.modal-skill-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+}
+
+.modal-logo-skill {
+  width: 50px;
+}
+
+#events {
+  height: auto;
+}
+
+@media only screen and (max-width: 767.5px) {
+  .close {
+    display: inline-block;
+    font-size: 16px;
+  }
+  .modal-about p {
+    font-size: 10px;
+  }
+  .modal-banner {
+    height: auto;
+  }
+  .modal-title-about h4 {
+    font-size: 14px;
+  }
+  .modal-skill-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .modal-logo-skill {
+    width: 35px;
+  }
+  .modal-github {
+    right: 45.5%;
+    width: 35px;
+  }
+  #sb {
+    height: 170px;
+  }
+}
+
+@media only screen and (max-width: 419.5px) {
+  .close {
+    display: inline-block;
+    font-size: 13px;
+  }
+  .modal-about p {
+    font-size: 9px;
+  }
+  .modal-github {
+    right: 44%;
+    width: 27px;
+  }
+  .modal-logo-skill {
+    width: 27px;
+  }
+  .modal-title-about h4 {
+    font-size: 9px;
+  }
+  #sb {
+    height: 75px;
+  }
+}
