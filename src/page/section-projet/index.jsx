@@ -2,7 +2,7 @@ import Realisation from "../../components/realisation-carte";
 import "./index.css";
 import { useState } from "react";
 import { projetsData } from "./projets-data/index"
-import Modal from "../../components/modal/index";
+import Modal from "../../components/Modal/index";
 
 function Projet(props) {
   const [openModalId, setOpenModalId] = useState(null);
