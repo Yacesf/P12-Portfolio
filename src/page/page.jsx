@@ -1,8 +1,8 @@
 import './page.css'
-import About from "./sectionAbout";
-import Skill from './sectionCompetences';
-import Projet from './sectionProjet';
-import Contact from './sectonContact';
+import About from "./section-about";
+import Skill from './section-competences';
+import Projet from './section-projet';
+import Contact from './secton-contact';
 
 function Page() {
   return (

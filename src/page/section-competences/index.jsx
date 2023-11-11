@@ -1,13 +1,13 @@
 import "./index.css";
-import Skills from "../../components/Skills";
-import LogoCSS from "../../img/Logo-de-competence/CSS3_logo.svg.png";
-import LogoHTML from "../../img/Logo-de-competence/Logo-HTML.png";
-import LogoSASS from "../../img/Logo-de-competence/Logo-SASS.png";
-import LogoJS from "../../img/Logo-de-competence/Logo-JS.png";
-import LogoReact from "../../img/Logo-de-competence/Logo-React.png";
-import LogoRedux from "../../img/Logo-de-competence/Logo-redux.png";
-import LogoGit from "../../img/Logo-de-competence/Logo-Git.png";
-import LogoSwagger from "../../img/Logo-de-competence/Logo-Swagger.png";
+import Skills from "../../components/skills";
+import LogoCSS from "../../img/logo-de-competence/CSS3_logo.svg.png";
+import LogoHTML from "../../img/logo-de-competence/Logo-HTML.png";
+import LogoSASS from "../../img/logo-de-competence/Logo-SASS.png";
+import LogoJS from "../../img/logo-de-competence/Logo-JS.png";
+import LogoReact from "../../img/logo-de-competence/Logo-React.png";
+import LogoRedux from "../../img/logo-de-competence/Logo-redux.png";
+import LogoGit from "../../img/logo-de-competence/Logo-Git.png";
+import LogoSwagger from "../../img/logo-de-competence/Logo-Swagger.png";
 
 const skillsData = [
   { name: "HTML", src: LogoHTML },
