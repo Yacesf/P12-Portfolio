@@ -6,7 +6,7 @@ function Modal(props) {
     <div className={`modal ${props.isOpen ? "modal-open" : "modal-closed"}`}>
       <div className="modal-wrapper">
         <i className="fa-solid fa-xmark close" onClick={props.isClose}></i>
-        <a href="#">
+        <a href={props.github}>
           <img
             className="modal-github"
             src={LogoGithub}

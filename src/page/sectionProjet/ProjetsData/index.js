@@ -47,6 +47,7 @@ export const projetsData = [
       { name: "HTML", src: LogoHTML },
       { name: "CSS", src: LogoCSS },
     ],
+    github: "https://github.com/Yacesf/Projet-3-Booki",
   },
   {
     id: "omf",
@@ -74,6 +75,7 @@ export const projetsData = [
       { name: "CSS", src: LogoCSS },
       { name: "SASS", src: LogoSASS },
     ],
+    github: "https://github.com/Yacesf/Projet-4-OMF",
   },
   {
     id: "sophie-bluel",
@@ -101,6 +103,7 @@ export const projetsData = [
       { name: "CSS", src: LogoCSS },
       { name: "JavaScript", src: LogoJS },
     ],
+    github: "https://github.com/Yacesf/Projet-6-Portfolio",
   },
   {
     id: "kasa",
@@ -127,6 +130,7 @@ export const projetsData = [
       { name: "SASS", src: LogoSASS },
       { name: "JavaScript", src: LogoJS },
     ],
+    github: "https://github.com/Yacesf/Projet-8-Kasa",
   },
   {
     id: "nina-carducci",
@@ -154,6 +158,7 @@ export const projetsData = [
       { name: "HTML", src: LogoHTML },
       { name: "CSS", src: LogoCSS },
     ],
+    github: "https://github.com/Yacesf/P9-Optimisation",
   },
   {
     id: "events",
@@ -178,6 +183,7 @@ export const projetsData = [
       { name: "CSS", src: LogoCSS },
       { name: "React", src: LogoReact },
     ],
+    github: "https://github.com/Yacesf/Debug-P10",
   },
   {
     id: "argent-bank",
@@ -206,6 +212,7 @@ export const projetsData = [
       { name: "React", src: LogoReact },
       { name: "Redux", src: LogoRedux },
     ],
+    github: "https://github.com/Yacesf/ArgentBank-P11",
   },
 ];
 

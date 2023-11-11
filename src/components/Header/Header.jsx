@@ -66,7 +66,7 @@ function Header() {
             </a>
           </li>
           <li className={`link-nav`}>
-            <a href="#" id="cv">
+            <a href="#cv" id="cv">
               MON CV
             </a>
           </li>

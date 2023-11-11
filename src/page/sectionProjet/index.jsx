@@ -36,6 +36,7 @@ function Projet(props) {
           key={projet.id}
           isOpen={openModalId === projet.modalId}
           isClose={closeModal}
+          github={projet.github}
           banner={projet.banner}
           bannerId={projet.bannerId}
           bannerAlt={projet.bannerAlt}
