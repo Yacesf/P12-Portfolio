@@ -1,5 +1,5 @@
 import "./index.css";
-import LogoGithub from "../../img/logo-de-competence/Logo-GitHub.png";
+import LogoGithub from "../../img/Logo-de-competence/Logo-GitHub.png";
 
 function Modal(props) {
   return (
