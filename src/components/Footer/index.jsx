@@ -4,8 +4,8 @@ function Footer() {
   return (
     <footer id="footer">
       <div className="div-icon">
-        <i class="fa-brands fa-github icon"></i>
-        <i class="fa-solid fa-envelope icon"></i>
+        <i className="fa-brands fa-github icon"></i>
+        <i className="fa-solid fa-envelope icon"></i>
       </div>
       <p>© 2023 Yacine SAFSAFI, Tous droits réservés.</p>
     </footer>

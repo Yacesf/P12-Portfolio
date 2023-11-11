@@ -6,11 +6,11 @@ function Contact() {
       <h2 className="section-title" id="title-section">CONTACT</h2>
       <div className="title-line"></div>
       <form id="contactForm">
-          <label for="name">Nom :</label>
+          <label htmlFor="name">Nom :</label>
           <input type="text" id="name" name="name" required />
-          <label for="email">E-mail :</label>
+          <label htmlFor="email">E-mail :</label>
           <input type="text" id="email" name="email" required />
-          <label for="message"></label>
+          <label htmlFor="message"></label>
           <textarea id="message" name="message" rows="4"></textarea>
       <button type="submit">Envoyer</button>
       </form>
