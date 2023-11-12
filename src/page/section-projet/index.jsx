@@ -1,8 +1,8 @@
 import Realisation from "../../components/realisation-carte";
 import "./index.css";
 import { useState } from "react";
-import { projetsData } from "./projets-data/index"
-import Modal from "../../components/Modal/index";
+import { projetsData } from "./projets-data"
+import Modal from "../../components/Modal"
 
 function Projet(props) {
   const [openModalId, setOpenModalId] = useState(null);

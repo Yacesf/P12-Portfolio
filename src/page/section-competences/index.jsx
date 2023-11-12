@@ -9,18 +9,17 @@ import LogoRedux from "../../img/Logo-de-competence/Logo-redux.png";
 import LogoGit from "../../img/Logo-de-competence/Logo-Git.png";
 import LogoSwagger from "../../img/Logo-de-competence/Logo-Swagger.png";
 
-const skillsData = [
-  { name: "HTML", src: LogoHTML },
-  { name: "CSS", src: LogoCSS },
-  { name: "JAVASCRIPT", src: LogoJS },
-  { name: "SASS", src: LogoSASS },
-  { name: "REACT", src: LogoReact },
-  { name: "REDUX", src: LogoRedux },
-  { name: "GIT", src: LogoGit },
-  { name: "SWAGGER", src: LogoSwagger },
-];
-
 const createSkillRows = (rowSize) => {
+  const skillsData = [
+    { name: "HTML", src: LogoHTML },
+    { name: "CSS", src: LogoCSS },
+    { name: "JAVASCRIPT", src: LogoJS },
+    { name: "SASS", src: LogoSASS },
+    { name: "REACT", src: LogoReact },
+    { name: "REDUX", src: LogoRedux },
+    { name: "GIT", src: LogoGit },
+    { name: "SWAGGER", src: LogoSwagger },
+  ];
   const skillRows = [];
   for (let i = 0; i < skillsData.length; i += rowSize) {
     const row = skillsData.slice(i, i + rowSize);
@@ -30,7 +29,6 @@ const createSkillRows = (rowSize) => {
 };
 
 function Skill(props) {
-  
   return (
     <section className="sections" id="skill">
       <h2 className="section-title">MES COMPÉTENCES</h2>
