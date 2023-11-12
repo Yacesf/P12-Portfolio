@@ -4,6 +4,9 @@
   color: #fff4f4;
   padding: 50px;
 }
+#footer a {
+  color: #fff4f4;
+}
 
 .div-icon {
   display: flex;
