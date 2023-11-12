@@ -28,6 +28,7 @@ function Projet(props) {
             span={projet.span}
             modalId={projet.modalId}
             openModal={() => openModal(projet.modalId)}
+            link={projet.link}
           />
         ))}
       </div>

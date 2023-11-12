@@ -48,6 +48,7 @@ export const projetsData = [
       { name: "CSS", src: LogoCSS },
     ],
     github: "https://github.com/Yacesf/Projet-3-Booki",
+    link: "https://yacesf.github.io/Projet-3-Booki/",
   },
   {
     id: "omf",
@@ -76,6 +77,7 @@ export const projetsData = [
       { name: "SASS", src: LogoSASS },
     ],
     github: "https://github.com/Yacesf/Projet-4-OMF",
+    link: "https://yacesf.github.io/Projet-4-OMF/",
   },
   {
     id: "sophie-bluel",

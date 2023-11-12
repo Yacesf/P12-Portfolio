@@ -8,6 +8,7 @@
   width: 225px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  position: relative;
 }
 
 .realisation-img {
@@ -17,6 +18,13 @@
 
 .realisation-carte span {
   text-align: center;
+}
+
+.link-projets {
+  position: absolute;
+  right: 46%;
+  bottom: 3%;
+  color: #970000;
 }
 
 @media only screen and (max-width: 599.5px) {
