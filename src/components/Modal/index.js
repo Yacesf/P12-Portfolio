@@ -20,8 +20,8 @@ function Modal(props) {
           alt={props.bannerAlt}
         ></img>
         <div className="modal-title-about">
-          <h4>INFORMATION DU PROJET</h4>
-          <h4>COMPÉTENCES UTILISÉ</h4>
+          <h3>INFORMATION DU PROJET</h3>
+          <h3>COMPÉTENCES UTILISÉ</h3>
         </div>
         <div className="modal-line">
           <div className="modal-line-about"></div>

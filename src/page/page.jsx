@@ -6,12 +6,12 @@ import Contact from './secton-contact';
 
 function Page() {
   return (
-    <>
+    <main>
     <About/>
     <Skill/>
     <Projet/>
     <Contact/>
-    </>
+    </main>
   );
 }
 
