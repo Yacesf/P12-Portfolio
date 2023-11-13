@@ -161,6 +161,7 @@ export const projetsData = [
       { name: "CSS", src: LogoCSS },
     ],
     github: "https://github.com/Yacesf/P9-Optimisation",
+    link: "https://yacesf.github.io/P9-Optimisation/",
   },
   {
     id: "events",
