@@ -1,10 +1,10 @@
 #contactForm {
- margin-top: 12%;
  text-align: center;  
  display: flex;
  flex-direction: column;
  max-width: 600px;
  margin: auto;
+ margin-top: 12%;
 }
 
 label {
