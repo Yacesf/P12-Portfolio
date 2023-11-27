@@ -4,7 +4,7 @@ import Skill from './section-competences';
 import Projet from './section-projet';
 import Contact from './secton-contact';
 import gsap from 'gsap';
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import { ScrollToPlugin, ScrollTrigger } from 'gsap/all';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
