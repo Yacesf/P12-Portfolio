@@ -3,6 +3,7 @@ import "./index.css";
 function About() {
   return (
     <section className="sections" id="about">
+    <div id="about-reveal">
       <h2 className="section-title">PRÉSENTATION</h2>
       <div className="title-line"></div>
       <div id="about-text">
@@ -21,6 +22,7 @@ function About() {
           </a>
           .
         </p>
+      </div>
       </div>
     </section>
   );

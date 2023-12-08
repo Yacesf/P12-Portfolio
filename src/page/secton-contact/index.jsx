@@ -3,6 +3,7 @@ import "./index.css";
 function Contact() {
   return (
     <section className="sections" id="contacts">
+    <div id="contacts-reveal">
       <h2 className="section-title" id="title-section">
         CONTACT
       </h2>
@@ -17,6 +18,7 @@ function Contact() {
         <textarea id="message" name="message" rows="4"></textarea>
         <button type="submit">Envoyer</button>
       </form>
+      </div>
     </section>
   );
 }

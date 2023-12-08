@@ -31,6 +31,7 @@ const createSkillRows = (rowSize) => {
 function Skill(props) {
   return (
     <section className="sections" id="skill">
+    <div id="skill-reveal">
       <h2 className="section-title">MES COMPÉTENCES</h2>
       <div className="title-line"></div>
       <div id="skill-container">
@@ -45,6 +46,7 @@ function Skill(props) {
             ))}
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

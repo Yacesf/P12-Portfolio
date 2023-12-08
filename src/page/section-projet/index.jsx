@@ -17,6 +17,7 @@ function Projet(props) {
 
   return (
     <section className="sections" id="projet">
+    <div id="projet-reveal">
       <h2 className="section-title">MES PROJETS</h2>
       <div className="title-line"></div>
       <div id="projet-container">
@@ -45,6 +46,7 @@ function Projet(props) {
           skills={projet.skills}
         />
       ))}
+      </div>
     </section>
   );
 }
